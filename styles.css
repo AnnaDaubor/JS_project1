@@ -1,0 +1,33 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title {
+    font-size: 300%;
+}
+
+#error {
+    font-size: 150%;
+    color: red;
+    font-weight: 500;
+    border-radius: 5%;
+}
+
+#input {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 100%;
+}
+#button {
+    padding: 5px;
+    margin-left: 10px;
+    background-color:cornflowerblue;
+    border-radius: 5px;
+    font-size: 100%;
+}
+#list {
+    margin-left: 50px;
+    font-size: 100%;
+    line-height: 2;
+}
+
