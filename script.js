@@ -15,14 +15,17 @@ function addDeals() {
     let myInput = document.getElementById('input')
     let myError = document.getElementById('error')
 
-    let value = myInput.value
+    let currentValue = myInput.value
+    myInput.value = ""
     count = count+1
     if(count<=5) {
-        myList.innerHTML = myList.innerHTML + "<li>" +value + "</li>"
+        myList.innerHTML = myList.innerHTML + "<li>" +currentValue + "</li>"
     } else {
         myError.innerHTML = "Можно ввести до 5 дел"
 
     }
-    
+
 }
+
+
 
